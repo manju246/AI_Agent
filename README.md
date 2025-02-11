@@ -32,7 +32,7 @@ Clone this repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/crypto-lang-ai-agent.git
+git clone https://github.com/manju246/AI_Agent
 cd crypto-lang-ai-agent
 Create a Python virtual environment (optional but recommended):
 
