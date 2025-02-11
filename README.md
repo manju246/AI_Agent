@@ -7,11 +7,12 @@ Table of Contents
 2. Installation
 3. Usage
 4. Features
-5. Example Conversations
-6. Assumptions and Limitations
-7. Error Handling
-8. License
-9. Overview
+5. Prompt Engineering
+6. Example Conversations
+7. Assumptions and Limitations
+8. Error Handling
+9. License
+10. Overview
 The AI agent:
 
 Uses the Together AI API to integrate with the LLaMA 3.1 8B model for understanding user queries and performing actions.
@@ -89,6 +90,11 @@ Conversation Flow: The system maintains context across multiple queries to ensur
 Bonus Features:
 Rate Limiting: Rate limiting is implemented to prevent overloading the CoinMarketCap API with too many requests.
 Caching: API results are cached to reduce unnecessary calls and improve performance.
+
+Prompt Engineering 
+Used few shot prompt technique for language translation tool.
+
+
 Example Conversations
 Conversation 1:
 
@@ -117,7 +123,7 @@ The cryptocurrency symbols are mapped correctly (e.g., "Bitcoin" is converted to
 The translation system only supports text-to-text translation without advanced linguistic capabilities.
 Limitations:
 
-The system is limited to fetching only Bitcoin (BTC) and Ethereum (ETH) prices.
+
 The translation feature currently supports basic translations and may not handle complex phrases or idioms perfectly.
 The system may encounter rate limiting when too many requests are made in a short period (due to CoinMarketCap’s API restrictions).
 Error Handling
